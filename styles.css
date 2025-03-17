@@ -1,0 +1,76 @@
+/* 🌟 ページ全体デザイン */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #B4EBE6; /* カラーパレット適用 */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://www.svgbackgrounds.com/wp-content/uploads/2021/10/wave-pattern.svg'); /* SVG背景 */
+    background-size: cover;
+}
+
+/* 📌 ナビゲーションバー */
+.navbar {
+    background-color: #80CBC4; /* カラーパレット */
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.navbar a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* 🔥 セクションデザイン */
+section {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* ✍ 投稿フォーム */
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 2px solid #80CBC4;
+    border-radius: 5px;
+}
+button {
+    background-color: #FFB433; /* カラーパレット */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: transform 0.3s;
+}
+button:hover {
+    transform: scale(1.1);
+    background-color: #FF9800;
+}
+/* 📚 過去作品 */
+.archive-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.archive-card {
+    background: #FF9800;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    width: 40%;
+}

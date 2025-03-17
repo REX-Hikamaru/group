@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>友達の輪 - 投稿</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+<!-- 📌 ナビゲーションバー -->
+<nav class="navbar">
+    <a href="index.html">🏠 トップ</a>
+    <a href="post.html">✍ 投稿</a>
+    
+    <a href="archive.html">📚 過去作品</a>
+</nav>
+
+<!-- ✍ 投稿フォーム -->
+<section class="post-section">
+    <h2>✍ 投稿を作成</h2>
+    <input type="text" id="username" class="input-box" placeholder="名前を入力">
+    <textarea id="postContent" class="input-box" placeholder="何を共有しますか？"></textarea>
+    <button onclick="submitPost()">📤 投稿</button>
+</section>
+
+<!-- 📝 投稿一覧 -->
+<section class="all-posts">
+    <h2>📝 みんなの投稿</h2>
+    <ul id="postList"></ul>
+</section>
+
+</body>
+</html>
